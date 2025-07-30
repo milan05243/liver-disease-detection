@@ -1,3 +1,4 @@
+https://colab.research.google.com/drive/1fpVS5fsfxMJBpqRvUYMkG8iaFRTS3NbW?usp=sharing
 # Liver Disease Detection
 
 This project uses machine learning (Random Forest) to detect liver disease from patient data. It also explains predictions using SHAP (a tool to explain AI models).
