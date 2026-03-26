@@ -1,31 +1,40 @@
 https://colab.research.google.com/drive/1fpVS5fsfxMJBpqRvUYMkG8iaFRTS3NbW?usp=sharing
-# Liver Disease Detection
+# Liver Disease Prediction using Machine Learning
 
-This project uses machine learning (Random Forest) to detect liver disease from patient data. It also explains predictions using SHAP (a tool to explain AI models).
+## Overview
+This project focuses on predicting liver disease using machine learning techniques. It uses the Indian Liver Patient Dataset and applies Random Forest along with SHAP for model explainability.
+
+## Key Features
+- Data preprocessing and cleaning
+- Random Forest classification model
+- Feature importance analysis
+- SHAP-based explainability
+
+## Technologies Used
+- Python
+- Scikit-learn
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- SHAP
 
 ## Dataset
-We used the Indian Liver Patient Dataset (ILPD). It includes features like:
-- Age
-- Gender
-- Bilirubin
-- Enzyme levels
-- Albumin
-- And more...
+Indian Liver Patient Dataset (ILPD)
 
-## What this project does:
-- Preprocesses the data
-- Trains a Random Forest model
-- Evaluates performance (Accuracy, F1-score, etc.)
-- Uses SHAP for explainability
-- Shows results using graphs
+## How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
 
-## Visuals
-- Class Distribution Plot
-- Feature Correlation Heatmap
-- Feature Importance Graph
-- SHAP Summary Plot
+2. Run the notebook:
+   Open the .ipynb file in Jupyter/Colab
+
+## Results
+- Achieved good classification performance
+- Identified key features affecting liver disease
+
+## Future Work
+- Improve model accuracy
+- Deploy using Streamlit or Flask
+- Add real-time prediction interface
 
 ## Author
-**Milan Choudhary**  
-B.Tech CSE (AI), Medi-Caps University
-
+Milan Choudhary
